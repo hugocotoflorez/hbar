@@ -39,3 +39,19 @@ int main() {
 There are quite a lot of options, you cant found it anywhere. Just
 read source code and get your conclusions. Sorry and thanks.
 
+#### format
+
+Main format is created by joining keys names with "|". Example: "time|battery". No
+spaces are allowed anywhere.
+
+#### formats
+
+Each key has its own format, the value is placed in the %s in this format.
+Example: "Brightness: %s\%".
+
+#### Others
+
+It isnt possible to change date and time format (yet).
+Icons are not supported.
+
+
